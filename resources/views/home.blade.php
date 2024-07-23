@@ -88,8 +88,7 @@
                           <div class="col text-truncate">
                             <a href="#" class="text-body d-block">Example 1</a>
                             <div class="d-block text-secondary text-truncate mt-n1">
-                              Change deprecated html tags to text decoration classes (#29604)
-                            </div>
+                              Change deprecated html tags to text decoration classes (#29604)                        </div>
                           </div>
                           <div class="col-auto">
                             <a href="#" class="list-group-item-actions">
