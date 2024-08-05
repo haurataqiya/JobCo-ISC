@@ -13,8 +13,8 @@ return new class extends Migration
     {
         Schema::create('discussion_replies', function (Blueprint $table) {
             $table->id('disc_rep_id')->auto_increment()->unsigned();
-            $table->unsignedBigInteger('disc_top_id');
-            $table->foreign('disc_top_id')->references('disc_top_id')->on('discussion_topic')
+            $table->unsignedBigInteger('disc_id');
+            $table->foreign('disc_id')->references('disc_id')->on('discussion_topic')
                 ->onUpdate('cascade')
                 ->onDelete('cascade');
             $table->unsignedBigInteger('user_id');

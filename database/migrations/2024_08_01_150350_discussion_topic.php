@@ -12,13 +12,13 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('discussion_topic', function (Blueprint $table) {
-            $table->id('disc_top_id')->auto_increment()->unsigned();
-            $table->unsignedBigInteger('disc_id');
-            $table->foreign('disc_id')->references('disc_id')->on('discussion_form')
-                ->onUpdate('cascade')
-                ->onDelete('cascade');
+            $table->id('disc_id')->auto_increment()->unsigned();
             $table->unsignedBigInteger('user_id');
             $table->foreign('user_id')->references('id')->on('users')
+                ->onUpdate('cascade')
+                ->onDelete('cascade');
+            $table->unsignedBigInteger('field_id');
+            $table->foreign('field_id')->references('field_id')->on('field_work')
                 ->onUpdate('cascade')
                 ->onDelete('cascade');
             $table->string('disc_title');
