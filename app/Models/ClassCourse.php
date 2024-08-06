@@ -17,7 +17,7 @@ class ClassCourse extends Model
         'rating'
     ];
 
-    protected $table = 'class';
+    protected $table = 'class_course';
     public function fieldwork(){
         return $this->belongsTo(FieldWork::class, 'field_id', 'id');
     }

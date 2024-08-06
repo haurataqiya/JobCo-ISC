@@ -10,6 +10,17 @@ class DiscussionTopic extends Model
     use HasFactory;
     protected $fillable = [
         'disc_id',
-        'field_id'
+        'user_id',
+        'field_id',
+        'disc_title',	
+        'disc_desc'	
     ];
+
+    protected $table = 'discussion_topic';
+    public function discussion_reply(){
+        return $this->hasMany(DiscussionReply::class, 'disc_rep_id', 'id');
+    }
+    public function users(){
+        return $this->belongsTo(Users::class, 'user_id', 'id');
+    }
 }

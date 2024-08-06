@@ -20,6 +20,7 @@ class Users extends Authenticatable
         'name',
         'email',
         'password',
+        'role'
     ];
 
     /**
@@ -45,3 +46,10 @@ class Users extends Authenticatable
         ];
     }
 }
+
+// app\Models\Users::create([
+//     'name' => 'Dono Sukamto',
+//     'email' => 'donoisgod@gmail.com',
+//     'password' => bcrypt('donooo'),
+//     'role' => 3
+// ]);

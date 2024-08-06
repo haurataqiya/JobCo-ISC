@@ -17,7 +17,7 @@ class FieldWork extends Model
     public function class(){
         return $this->hasMany(ClassCourse::class, 'class_id', 'id');
     }
-    public function form_diskusi(){
+    public function discussion_form(){
         return $this->hasMany(DiscussionTopic::class, 'disc_id', 'id');
     }
     public function mentoring(){
