@@ -220,16 +220,15 @@
                                     data-bs-auto-close="outside" role="button" aria-expanded="false">
                                     <span
                                         class="nav-link-icon d-md-none d-lg-inline-block"><!-- Download SVG icon from http://tabler-icons.io/i/package -->
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24"
-                                            height="24" viewBox="0 0 24 24" stroke-width="2"
-                                            stroke="currentColor" fill="none" stroke-linecap="round"
-                                            stroke-linejoin="round">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                            class="icon icon-tabler icons-tabler-outline icon-tabler-clipboard">
                                             <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                            <path d="M12 3l8 4.5l0 9l-8 4.5l-8 -4.5l0 -9l8 -4.5" />
-                                            <path d="M12 12l8 -4.5" />
-                                            <path d="M12 12l0 9" />
-                                            <path d="M12 12l-8 -4.5" />
-                                            <path d="M16 5.25l-8 4.5" />
+                                            <path
+                                                d="M9 5h-2a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-12a2 2 0 0 0 -2 -2h-2" />
+                                            <path
+                                                d="M9 3m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v0a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z" />
                                         </svg>
                                     </span>
                                     <span class="nav-link-title">
@@ -475,14 +474,15 @@
                                 <a class="nav-link" href="./form-elements.html">
                                     <span
                                         class="nav-link-icon d-md-none d-lg-inline-block"><!-- Download SVG icon from http://tabler-icons.io/i/checkbox -->
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24"
-                                            height="24" viewBox="0 0 24 24" stroke-width="2"
-                                            stroke="currentColor" fill="none" stroke-linecap="round"
-                                            stroke-linejoin="round">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                            class="icon icon-tabler icons-tabler-outline icon-tabler-users">
                                             <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                            <path d="M9 11l3 3l8 -8" />
-                                            <path
-                                                d="M20 12v6a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h9" />
+                                            <path d="M9 7m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
+                                            <path d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+                                            <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                                            <path d="M21 21v-2a4 4 0 0 0 -3 -3.85" />
                                         </svg>
                                     </span>
                                     <span class="nav-link-title">
@@ -751,231 +751,51 @@
             <div class="page-body">
                 <div class="container-xl">
                     <div class="row row-deck row-cards justify-content-center">
-                        <div class="col-sm-6 col-lg-2">
-                            <div class="card">
-                                <div class="card-body">
-                                    <div class="d-flex align-items-center">
-                                        <div class="subheader">Sales</div>
-                                        <div class="ms-auto lh-1">
-                                            <div class="dropdown">
-                                                <a class="dropdown-toggle text-secondary" href="#"
-                                                    data-bs-toggle="dropdown" aria-haspopup="true"
-                                                    aria-expanded="false">Last 7 days</a>
-                                                <div class="dropdown-menu dropdown-menu-end">
-                                                    <a class="dropdown-item active" href="#">Last 7 days</a>
-                                                    <a class="dropdown-item" href="#">Last 30 days</a>
-                                                    <a class="dropdown-item" href="#">Last 3 months</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="h1 mb-3">75%</div>
-                                    <div class="d-flex mb-2">
-                                        <div>Conversion rate</div>
-                                        <div class="ms-auto">
-                                            <span class="text-green d-inline-flex align-items-center lh-1">
-                                                7% <!-- Download SVG icon from http://tabler-icons.io/i/trending-up -->
-                                                <svg xmlns="http://www.w3.org/2000/svg" class="icon ms-1"
-                                                    width="24" height="24" viewBox="0 0 24 24"
-                                                    stroke-width="2" stroke="currentColor" fill="none"
-                                                    stroke-linecap="round" stroke-linejoin="round">
-                                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                                    <path d="M3 17l6 -6l4 4l8 -8" />
-                                                    <path d="M14 7l7 0l0 7" />
-                                                </svg>
-                                            </span>
-                                        </div>
-                                    </div>
-                                    <div class="progress progress-sm">
-                                        <div class="progress-bar bg-primary" style="width: 75%" role="progressbar"
-                                            aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
-                                            aria-label="75% Complete">
-                                            <span class="visually-hidden">75% Complete</span>
-                                        </div>
-                                    </div>
-                                </div>
+                      <div class="col-sm-6 col-lg-2">
+                        <div class="card">
+                            <div class="card-body text-center">
+                                <img src="/img/image 54.png" alt="Laptop Icon" class="img-fluid">
+                                <h5 class="card-title mt-3">Lebih dari 1.2 Juta+ Pengguna</h5>
+                                <p class="card-text">Belajar Bersama</p>
                             </div>
                         </div>
-                        <div class="col-sm-6 col-lg-2">
-                            <div class="card">
-                                <div class="card-body">
-                                    <div class="d-flex align-items-center">
-                                        <div class="subheader">Sales</div>
-                                        <div class="ms-auto lh-1">
-                                            <div class="dropdown">
-                                                <a class="dropdown-toggle text-secondary" href="#"
-                                                    data-bs-toggle="dropdown" aria-haspopup="true"
-                                                    aria-expanded="false">Last 7 days</a>
-                                                <div class="dropdown-menu dropdown-menu-end">
-                                                    <a class="dropdown-item active" href="#">Last 7 days</a>
-                                                    <a class="dropdown-item" href="#">Last 30 days</a>
-                                                    <a class="dropdown-item" href="#">Last 3 months</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="h1 mb-3">75%</div>
-                                    <div class="d-flex mb-2">
-                                        <div>Conversion rate</div>
-                                        <div class="ms-auto">
-                                            <span class="text-green d-inline-flex align-items-center lh-1">
-                                                7% <!-- Download SVG icon from http://tabler-icons.io/i/trending-up -->
-                                                <svg xmlns="http://www.w3.org/2000/svg" class="icon ms-1"
-                                                    width="24" height="24" viewBox="0 0 24 24"
-                                                    stroke-width="2" stroke="currentColor" fill="none"
-                                                    stroke-linecap="round" stroke-linejoin="round">
-                                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                                    <path d="M3 17l6 -6l4 4l8 -8" />
-                                                    <path d="M14 7l7 0l0 7" />
-                                                </svg>
-                                            </span>
-                                        </div>
-                                    </div>
-                                    <div class="progress progress-sm">
-                                        <div class="progress-bar bg-primary" style="width: 75%" role="progressbar"
-                                            aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
-                                            aria-label="75% Complete">
-                                            <span class="visually-hidden">75% Complete</span>
-                                        </div>
-                                    </div>
-                                </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-2">
+                        <div class="card">
+                            <div class="card-body text-center">
+                                <img src="/img/image 51.png" alt="Mentor Icon" class="img-fluid">
+                                <h5 class="card-title mt-3">Akses ke Mentor</h5>
+                                <p class="card-text">Berpengalaman</p>
                             </div>
                         </div>
-                        <div class="col-sm-6 col-lg-2">
-                            <div class="card">
-                                <div class="card-body">
-                                    <div class="d-flex align-items-center">
-                                        <div class="subheader">Sales</div>
-                                        <div class="ms-auto lh-1">
-                                            <div class="dropdown">
-                                                <a class="dropdown-toggle text-secondary" href="#"
-                                                    data-bs-toggle="dropdown" aria-haspopup="true"
-                                                    aria-expanded="false">Last 7 days</a>
-                                                <div class="dropdown-menu dropdown-menu-end">
-                                                    <a class="dropdown-item active" href="#">Last 7 days</a>
-                                                    <a class="dropdown-item" href="#">Last 30 days</a>
-                                                    <a class="dropdown-item" href="#">Last 3 months</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="h1 mb-3">75%</div>
-                                    <div class="d-flex mb-2">
-                                        <div>Conversion rate</div>
-                                        <div class="ms-auto">
-                                            <span class="text-green d-inline-flex align-items-center lh-1">
-                                                7% <!-- Download SVG icon from http://tabler-icons.io/i/trending-up -->
-                                                <svg xmlns="http://www.w3.org/2000/svg" class="icon ms-1"
-                                                    width="24" height="24" viewBox="0 0 24 24"
-                                                    stroke-width="2" stroke="currentColor" fill="none"
-                                                    stroke-linecap="round" stroke-linejoin="round">
-                                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                                    <path d="M3 17l6 -6l4 4l8 -8" />
-                                                    <path d="M14 7l7 0l0 7" />
-                                                </svg>
-                                            </span>
-                                        </div>
-                                    </div>
-                                    <div class="progress progress-sm">
-                                        <div class="progress-bar bg-primary" style="width: 75%" role="progressbar"
-                                            aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
-                                            aria-label="75% Complete">
-                                            <span class="visually-hidden">75% Complete</span>
-                                        </div>
-                                    </div>
-                                </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-2">
+                        <div class="card">
+                            <div class="card-body text-center">
+                                <img src="/img/image 57.png" alt="Community Icon" class="img-fluid">
+                                <h5 class="card-title mt-3">Komunitas Aktif Memberikan</h5>
+                                <p class="card-text">Dukungan untuk Berkembang</p>
                             </div>
                         </div>
-                        <div class="col-sm-6 col-lg-2">
-                            <div class="card">
-                                <div class="card-body">
-                                    <div class="d-flex align-items-center">
-                                        <div class="subheader">Sales</div>
-                                        <div class="ms-auto lh-1">
-                                            <div class="dropdown">
-                                                <a class="dropdown-toggle text-secondary" href="#"
-                                                    data-bs-toggle="dropdown" aria-haspopup="true"
-                                                    aria-expanded="false">Last 7 days</a>
-                                                <div class="dropdown-menu dropdown-menu-end">
-                                                    <a class="dropdown-item active" href="#">Last 7 days</a>
-                                                    <a class="dropdown-item" href="#">Last 30 days</a>
-                                                    <a class="dropdown-item" href="#">Last 3 months</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="h1 mb-3">75%</div>
-                                    <div class="d-flex mb-2">
-                                        <div>Conversion rate</div>
-                                        <div class="ms-auto">
-                                            <span class="text-green d-inline-flex align-items-center lh-1">
-                                                7% <!-- Download SVG icon from http://tabler-icons.io/i/trending-up -->
-                                                <svg xmlns="http://www.w3.org/2000/svg" class="icon ms-1"
-                                                    width="24" height="24" viewBox="0 0 24 24"
-                                                    stroke-width="2" stroke="currentColor" fill="none"
-                                                    stroke-linecap="round" stroke-linejoin="round">
-                                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                                    <path d="M3 17l6 -6l4 4l8 -8" />
-                                                    <path d="M14 7l7 0l0 7" />
-                                                </svg>
-                                            </span>
-                                        </div>
-                                    </div>
-                                    <div class="progress progress-sm">
-                                        <div class="progress-bar bg-primary" style="width: 75%" role="progressbar"
-                                            aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
-                                            aria-label="75% Complete">
-                                            <span class="visually-hidden">75% Complete</span>
-                                        </div>
-                                    </div>
-                                </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-2">
+                        <div class="card">
+                            <div class="card-body text-center">
+                                <img src="/img/image 53.png" alt="Training Icon" class="img-fluid">
+                                <h5 class="card-title mt-3">Pelatihan Profesional Sesuai</h5>
+                                <p class="card-text">Kebutuhan Industri</p>
                             </div>
                         </div>
-                        <div class="col-sm-6 col-lg-2">
-                            <div class="card">
-                                <div class="card-body">
-                                    <div class="d-flex align-items-center">
-                                        <div class="subheader">Sales</div>
-                                        <div class="ms-auto lh-1">
-                                            <div class="dropdown">
-                                                <a class="dropdown-toggle text-secondary" href="#"
-                                                    data-bs-toggle="dropdown" aria-haspopup="true"
-                                                    aria-expanded="false">Last 7 days</a>
-                                                <div class="dropdown-menu dropdown-menu-end">
-                                                    <a class="dropdown-item active" href="#">Last 7 days</a>
-                                                    <a class="dropdown-item" href="#">Last 30 days</a>
-                                                    <a class="dropdown-item" href="#">Last 3 months</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="h1 mb-3">75%</div>
-                                    <div class="d-flex mb-2">
-                                        <div>Conversion rate</div>
-                                        <div class="ms-auto">
-                                            <span class="text-green d-inline-flex align-items-center lh-1">
-                                                7% <!-- Download SVG icon from http://tabler-icons.io/i/trending-up -->
-                                                <svg xmlns="http://www.w3.org/2000/svg" class="icon ms-1"
-                                                    width="24" height="24" viewBox="0 0 24 24"
-                                                    stroke-width="2" stroke="currentColor" fill="none"
-                                                    stroke-linecap="round" stroke-linejoin="round">
-                                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                                    <path d="M3 17l6 -6l4 4l8 -8" />
-                                                    <path d="M14 7l7 0l0 7" />
-                                                </svg>
-                                            </span>
-                                        </div>
-                                    </div>
-                                    <div class="progress progress-sm">
-                                        <div class="progress-bar bg-primary" style="width: 75%" role="progressbar"
-                                            aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
-                                            aria-label="75% Complete">
-                                            <span class="visually-hidden">75% Complete</span>
-                                        </div>
-                                    </div>
-                                </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-2">
+                        <div class="card">
+                            <div class="card-body text-center">
+                                <img src="/img/image 58.png" alt="Networking Icon" class="img-fluid">
+                                <h5 class="card-title mt-3">Kesempatan Networking</h5>
+                                <p class="card-text">dengan Ahli Industri</p>
                             </div>
                         </div>
+                    </div>
                         {{-- <div class="col-sm-6 col-lg-3">
                   <div class="card">
                     <div class="card-body">
@@ -1565,24 +1385,69 @@
                                     <div class="row justify-content-center">
                                         <div class="" style="flex: 0 0 27.72%; max-width: 27.72%;">
                                             <div class="card ">
-                                                <div class="card-header ">
-                                                    <p class="">Kursusnya mantep</p>
+                                                <div class="card-body">
+                                                    <div class="testimonial-content">
+                                                        <div class="testimonial-quote">
+                                                            <p>Seneng banget bisa belajar di JobCo! Pembelajarannya
+                                                                asik, materinya pun daging semua. Ga nyesel bisa belajar
+                                                                dan kenal mentor-mentor keren dari JobCo!</p>
+                                                        </div>
+                                                        <div class="testimonial-author">
+                                                            <h3>Christoper Nolance</h3>
+                                                            <p>Customer</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="testimonial-image"
+                                                        style="margin-left: 210px; margin-top: -40px">
+                                                        <img src="/static/avatars/000f.jpg" height="45"
+                                                            width="45" alt="Christoper Nolance">
+                                                    </div>
                                                 </div>
                                                 <!-- card content -->
                                             </div>
                                         </div>
                                         <div class="" style="flex: 0 0 27.72%; max-width: 27.72%;">
                                             <div class="card">
-                                                <div class="card-header">
-                                                    <p>Kursusnya mantep weh</p>
+                                                <div class="card-body">
+                                                    <div class="testimonial-content">
+                                                        <div class="testimonial-quote">
+                                                            <p>Seneng banget bisa belajar di JobCo! Pembelajarannya
+                                                                asik, materinya pun daging semua. Ga nyesel bisa belajar
+                                                                dan kenal mentor-mentor keren dari JobCo!</p>
+                                                        </div>
+                                                        <div class="testimonial-author">
+                                                            <h3>Christoper Nolance</h3>
+                                                            <p>Customer</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="testimonial-image"
+                                                        style="margin-left: 210px; margin-top: -40px">
+                                                        <img src="/static/avatars/000m.jpg" height="45"
+                                                            width="45" alt="Christoper Nolance">
+                                                    </div>
                                                 </div>
                                                 <!-- card content -->
                                             </div>
                                         </div>
                                         <div class="" style="flex: 0 0 27.72%; max-width: 27.72%;">
                                             <div class="card">
-                                                <div class="card-header">
-                                                    <p>Kursusnya mantep bang</p>
+                                                <div class="card-body">
+                                                    <div class="testimonial-content">
+                                                        <div class="testimonial-quote">
+                                                            <p>Seneng banget bisa belajar di JobCo! Pembelajarannya
+                                                                asik, materinya pun daging semua. Ga nyesel bisa belajar
+                                                                dan kenal mentor-mentor keren dari JobCo!</p>
+                                                        </div>
+                                                        <div class="testimonial-author">
+                                                            <h3>Christoper Nolance</h3>
+                                                            <p>Customer</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="testimonial-image"
+                                                        style="margin-left: 210px; margin-top: -40px">
+                                                        <img src="/static/avatars/001f.jpg" height="45"
+                                                            width="45" alt="Christoper Nolance">
+                                                    </div>
                                                 </div>
                                                 <!-- card content -->
                                             </div>
@@ -1593,24 +1458,69 @@
                                     <div class="row justify-content-center">
                                         <div class="" style="flex: 0 0 27.72%; max-width: 27.72%;">
                                             <div class="card">
-                                                <div class="card-header">
-                                                    <p>Membantu</p>
+                                                <div class="card-body">
+                                                    <div class="testimonial-content">
+                                                        <div class="testimonial-quote">
+                                                            <p>Seneng banget bisa belajar di JobCo! Pembelajarannya
+                                                                asik, materinya pun daging semua. Ga nyesel bisa belajar
+                                                                dan kenal mentor-mentor keren dari JobCo!</p>
+                                                        </div>
+                                                        <div class="testimonial-author">
+                                                            <h3>Christoper Nolance</h3>
+                                                            <p>Customer</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="testimonial-image"
+                                                        style="margin-left: 210px; margin-top: -40px">
+                                                        <img src="/static/avatars/001m.jpg" height="45"
+                                                            width="45" alt="Christoper Nolance">
+                                                    </div>
                                                 </div>
                                                 <!-- card content -->
                                             </div>
                                         </div>
                                         <div class="" style="flex: 0 0 27.72%; max-width: 27.72%;">
                                             <div class="card">
-                                                <div class="card-header">
-                                                    <p>Membantu bangget</p>
+                                                <div class="card-body">
+                                                    <div class="testimonial-content">
+                                                        <div class="testimonial-quote">
+                                                            <p>Seneng banget bisa belajar di JobCo! Pembelajarannya
+                                                                asik, materinya pun daging semua. Ga nyesel bisa belajar
+                                                                dan kenal mentor-mentor keren dari JobCo!</p>
+                                                        </div>
+                                                        <div class="testimonial-author">
+                                                            <h3>Christoper Nolance</h3>
+                                                            <p>Customer</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="testimonial-image"
+                                                        style="margin-left: 210px; margin-top: -40px">
+                                                        <img src="/static/avatars/002f.jpg" height="45"
+                                                            width="45" alt="Christoper Nolance">
+                                                    </div>
                                                 </div>
                                                 <!-- card content -->
                                             </div>
                                         </div>
                                         <div class="" style="flex: 0 0 27.72%; max-width: 27.72%;">
                                             <div class="card">
-                                                <div class="card-header">
-                                                    <p>Membantu bang</p>
+                                                <div class="card-body">
+                                                    <div class="testimonial-content">
+                                                        <div class="testimonial-quote">
+                                                            <p>Seneng banget bisa belajar di JobCo! Pembelajarannya
+                                                                asik, materinya pun daging semua. Ga nyesel bisa belajar
+                                                                dan kenal mentor-mentor keren dari JobCo!</p>
+                                                        </div>
+                                                        <div class="testimonial-author">
+                                                            <h3>Christoper Nolance</h3>
+                                                            <p>Customer</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="testimonial-image"
+                                                        style="margin-left: 210px; margin-top: -40px">
+                                                        <img src="/static/avatars/002m.jpg" height="45"
+                                                            width="45" alt="Christoper Nolance">
+                                                    </div>
                                                 </div>
                                                 <!-- card content -->
                                             </div>
@@ -1626,8 +1536,8 @@
                         </h1>
 
                         <div class="col-8" style="margin-left: 20rem">
-                            <img src="/img/JobCo.png" alt="Image" class="me-3"
-                                style="width: 120px; height: 120px;">
+                            <img src="/img/image 16.png" alt="Image" class="me-3 mt-5"
+                                style="width: 200px; height: 200px;">
                             {{-- <div class="card-stamp card-stamp-lg ms-auto">
                                 <div class="card-stamp-icon bg-primary">
                                     <!-- Download SVG icon from http://tabler-icons.io/i/ghost -->
@@ -1644,65 +1554,103 @@
                                 </div>
                             </div> --}}
                             <div class="card-body ms-auto">
-                                <div class="row align-items-center">
-                                    <div class="col-10">
-                                        <h3 class="h1 text-left">Tabler Icons</h3>
-                                        <div class="markdown text-secondary text-left">
-                                            All icons come from the Tabler Icons set and are MIT-licensed. Visit
-                                            <a href="https://tabler-icons.io" target="_blank"
-                                                rel="noopener">tabler-icons.io</a>,
-                                            download any of the 4637 icons in SVG, PNG or&nbsp;React and use them in
-                                            your favourite design tools.
-                                        </div>
-                                        <div class="mt-3">
-                                            <a href="https://tabler-icons.io" class="btn btn-primary" target="_blank"
-                                                rel="noopener">Download icons</a>
-                                        </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h5 class="card-title">E-Learning / Kelas</h5>
+                                        <p class="card-text">Ikuti kelas live mendalam yang dipandu oleh para ahli
+                                            industri. Dapatkan keterampilan praktis melalui:</p>
+                                    </div>
+                                </div>
+                                <div class="row mt-4">
+                                    <div class="col-1">
+                                        <input class="form-check-input" style="background-color: #433D8B"
+                                            type="checkbox" disabled checked>
+                                    </div>
+                                    <div class="col-11">
+                                        <p class="mb-0">Kombinasi studi kasus, diskusi, dan praktik langsung, cocok
+                                            untuk semua level dari pemula hingga tingkat lanjut.</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-1 mt-3">
+                                        <input class="form-check-input" style="background-color: #433D8B"
+                                            type="checkbox" disabled checked>
+                                    </div>
+                                    <div class="col-11 mt-3">
+                                        <p class="mb-0">Sesi mentoring kelompok semi-privat yang dirancang untuk
+                                            membantu Anda membangun portofolio profesional.</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-1 mt-3">
+                                        <input class="form-check-input" style="background-color: #433D8B"
+                                            type="checkbox" disabled checked>
+                                    </div>
+                                    <div class="col-11 mt-3">
+                                        <p class="mb-0">Akses ke tutor berpengalaman dengan jaringan lebih dari
+                                            30.000 alumni.</p>
+                                    </div>
+                                </div>
+                                <div class="row mt-4">
+                                    <div class="col-12">
+                                        <a href="#" class="btn btn-sm text-light rounded"
+                                            style="background-color: #625D9E">Lihat Selengkapnya</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="col-10">
-                            {{-- <div class="card-stamp card-stamp-lg ms-auto">
-                                <div class="card-stamp-icon bg-primary">
-                                    <!-- Download SVG icon from http://tabler-icons.io/i/ghost -->
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24"
-                                        height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
-                                        fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                        <path
-                                            d="M5 11a7 7 0 0 1 14 0v7a1.78 1.78 0 0 1 -3.1 1.4a1.65 1.65 0 0 0 -2.6 0a1.65 1.65 0 0 1 -2.6 0a1.65 1.65 0 0 0 -2.6 0a1.78 1.78 0 0 1 -3.1 -1.4v-7" />
-                                        <path d="M10 10l.01 0" />
-                                        <path d="M14 10l.01 0" />
-                                        <path d="M10 14a3.5 3.5 0 0 0 4 0" />
-                                    </svg>
-                                </div>
-                            </div> --}}
-                            <div class="card-body ms-auto">
-                                <div class="row align-items-center">
-                                    <div class="col-6">
-                                        <h3 class="h1 text-left">Tabler Icons</h3>
-                                        <div class="markdown text-secondary text-left">
-                                            All icons come from the Tabler Icons set and are MIT-licensed. Visit
-                                            <a href="https://tabler-icons.io" target="_blank"
-                                                rel="noopener">tabler-icons.io</a>,
-                                            download any of the 4637 icons in SVG, PNG or&nbsp;React and use them in
-                                            your favourite design tools.
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-md-7">
+                                        <h2 class="card-title">Discuss Room</h2>
+                                        <p class="card-text">
+                                            Tingkatkan peluang Anda untuk mendapatkan pekerjaan dengan bergabung di
+                                            Ruang Diskusi kami. Program kami mencakup:
+                                        <div class="row mt-4">
+                                            <div class="col-1">
+                                                <input class="form-check-input" style="background-color: #433D8B"
+                                                    type="checkbox" disabled checked>
+                                            </div>
+                                            <div class="col-11">
+                                                <p class="mb-0">Kombinasi studi kasus, diskusi, dan praktik langsung,
+                                                    cocok untuk semua level dari pemula hingga tingkat lanjut.</p>
+                                            </div>
                                         </div>
-                                        <div class="mt-3">
-                                            <a href="https://tabler-icons.io" class="btn btn-primary" target="_blank"
-                                                rel="noopener">Download icons</a>
+                                        <div class="row">
+                                            <div class="col-1 mt-3">
+                                                <input class="form-check-input" style="background-color: #433D8B"
+                                                    type="checkbox" disabled checked>
+                                            </div>
+                                            <div class="col-11 mt-3">
+                                                <p class="mb-0">Sesi mentoring kelompok semi-privat yang dirancang
+                                                    untuk membantu Anda membangun portofolio profesional.</p>
+                                            </div>
                                         </div>
+                                        <div class="row">
+                                            <div class="col-1 mt-3">
+                                                <input class="form-check-input" style="background-color: #433D8B"
+                                                    type="checkbox" disabled checked>
+                                            </div>
+                                            <div class="col-11 mt-3">
+                                                <p class="mb-0">Akses ke tutor berpengalaman dengan jaringan lebih
+                                                    dari 30.000 alumni.</p>
+                                            </div>
+                                        </div>
+                                        </p>
+                                        <a href="#" class="btn btn-sm text-light rounded"
+                                            style="background-color: #625D9E">Lihat Selengkapnya</a>
                                     </div>
-                                    <img src="/img/JobCo.png" alt="Image" class="me-3"
-                                        style="width: 120px; height: 120px;">
+                                    <div class="col-md-5">
+                                        <img src="/img/image 17.png" width="200" height="200" class="img-fluid"
+                                            alt="Discuss Room Image">
+                                    </div>
                                 </div>
                             </div>
-
                         </div>
                         <div class="col-8" style="margin-left: 20rem">
-                            <img src="/img/JobCo.png" alt="Image" class="me-3"
-                                style="width: 120px; height: 120px;">
+                            <img src="/img/image 18.png" alt="Image" class="me-3 mt-5"
+                                style="width: 200px; height: 200px;">
                             {{-- <div class="card-stamp card-stamp-lg ms-auto">
                               <div class="card-stamp-icon bg-primary">
                                   <!-- Download SVG icon from http://tabler-icons.io/i/ghost -->
@@ -1719,20 +1667,47 @@
                               </div>
                           </div> --}}
                             <div class="card-body ms-auto">
-                                <div class="row align-items-center">
-                                    <div class="col-10">
-                                        <h3 class="h1 text-left">Tabler Icons</h3>
-                                        <div class="markdown text-secondary text-left">
-                                            All icons come from the Tabler Icons set and are MIT-licensed. Visit
-                                            <a href="https://tabler-icons.io" target="_blank"
-                                                rel="noopener">tabler-icons.io</a>,
-                                            download any of the 4637 icons in SVG, PNG or&nbsp;React and use them in
-                                            your favourite design tools.
-                                        </div>
-                                        <div class="mt-3">
-                                            <a href="https://tabler-icons.io" class="btn btn-primary" target="_blank"
-                                                rel="noopener">Download icons</a>
-                                        </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h5 class="card-title">E-Learning / Kelas</h5>
+                                        <p class="card-text">Ikuti kelas live mendalam yang dipandu oleh para ahli
+                                            industri. Dapatkan keterampilan praktis melalui:</p>
+                                    </div>
+                                </div>
+                                <div class="row mt-4">
+                                    <div class="col-1">
+                                        <input class="form-check-input" style="background-color: #433D8B"
+                                            type="checkbox" disabled checked>
+                                    </div>
+                                    <div class="col-11">
+                                        <p class="mb-0">Kombinasi studi kasus, diskusi, dan praktik langsung, cocok
+                                            untuk semua level dari pemula hingga tingkat lanjut.</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-1 mt-3">
+                                        <input class="form-check-input" style="background-color: #433D8B"
+                                            type="checkbox" disabled checked>
+                                    </div>
+                                    <div class="col-11 mt-3">
+                                        <p class="mb-0">Sesi mentoring kelompok semi-privat yang dirancang untuk
+                                            membantu Anda membangun portofolio profesional.</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-1 mt-3">
+                                        <input class="form-check-input" style="background-color: #433D8B"
+                                            type="checkbox" disabled checked>
+                                    </div>
+                                    <div class="col-11 mt-3">
+                                        <p class="mb-0">Akses ke tutor berpengalaman dengan jaringan lebih dari
+                                            30.000 alumni.</p>
+                                    </div>
+                                </div>
+                                <div class="row mt-4">
+                                    <div class="col-12">
+                                        <a href="#" class="btn btn-sm text-light rounded"
+                                            style="background-color: #625D9E">Lihat Selengkapnya</a>
                                     </div>
                                 </div>
                             </div>
@@ -1748,8 +1723,14 @@
                                     <div class="row justify-content-center">
                                         <div class="" style="flex: 0 0 21.3%; max-width: 21.3%;">
                                             <div class="card ">
-                                                <div class="card-header ">
-                                                    <p class="">Kursusnya mantep</p>
+                                                <div class="card-header">
+                                                    <img src="https://example.com/image.jpg" alt="Gita Savitri"
+                                                        class="card-img-top">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Gita Savitri</h5>
+                                                        <p class="card-text">Lorem ipsum is simply free dumy text of
+                                                            the printing and amet con piscing.</p>
+                                                    </div>
                                                 </div>
                                                 <!-- card content -->
                                             </div>
@@ -1757,7 +1738,13 @@
                                         <div class="" style="flex: 0 0 21.3%; max-width: 21.3%;">
                                             <div class="card">
                                                 <div class="card-header">
-                                                    <p>Kursusnya mantep weh</p>
+                                                    <img src="https://example.com/image.jpg" alt="Gita Savitri"
+                                                        class="card-img-top">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Gita Savitri</h5>
+                                                        <p class="card-text">Lorem ipsum is simply free dumy text of
+                                                            the printing and amet con piscing.</p>
+                                                    </div>
                                                 </div>
                                                 <!-- card content -->
                                             </div>
@@ -1765,7 +1752,13 @@
                                         <div class="" style="flex: 0 0 21.3%; max-width: 21.3%;">
                                             <div class="card">
                                                 <div class="card-header">
-                                                    <p>Kursusnya mantep bang</p>
+                                                    <img src="https://example.com/image.jpg" alt="Gita Savitri"
+                                                        class="card-img-top">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Gita Savitri</h5>
+                                                        <p class="card-text">Lorem ipsum is simply free dumy text of
+                                                            the printing and amet con piscing.</p>
+                                                    </div>
                                                 </div>
                                                 <!-- card content -->
                                             </div>
@@ -1773,7 +1766,13 @@
                                         <div class="" style="flex: 0 0 21.3%; max-width: 21.3%;">
                                             <div class="card">
                                                 <div class="card-header">
-                                                    <p>Kursusnya mantep cihuy</p>
+                                                    <img src="https://example.com/image.jpg" alt="Gita Savitri"
+                                                        class="card-img-top">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Gita Savitri</h5>
+                                                        <p class="card-text">Lorem ipsum is simply free dumy text of
+                                                            the printing and amet con piscing.</p>
+                                                    </div>
                                                 </div>
                                                 <!-- card content -->
                                             </div>
@@ -1785,7 +1784,13 @@
                                         <div class="" style="flex: 0 0 21.3%; max-width: 21.3%;">
                                             <div class="card">
                                                 <div class="card-header">
-                                                    <p>Membantu</p>
+                                                    <img src="https://example.com/image.jpg" alt="Gita Savitri"
+                                                        class="card-img-top">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Gita Savitri</h5>
+                                                        <p class="card-text">Lorem ipsum is simply free dumy text of
+                                                            the printing and amet con piscing.</p>
+                                                    </div>
                                                 </div>
                                                 <!-- card content -->
                                             </div>
@@ -1793,7 +1798,13 @@
                                         <div class="" style="flex: 0 0 21.3%; max-width: 21.3%;">
                                             <div class="card">
                                                 <div class="card-header">
-                                                    <p>Membantu bangget</p>
+                                                    <img src="https://example.com/image.jpg" alt="Gita Savitri"
+                                                        class="card-img-top">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Gita Savitri</h5>
+                                                        <p class="card-text">Lorem ipsum is simply free dumy text of
+                                                            the printing and amet con piscing.</p>
+                                                    </div>
                                                 </div>
                                                 <!-- card content -->
                                             </div>
@@ -1801,7 +1812,13 @@
                                         <div class="" style="flex: 0 0 21.3%; max-width: 21.3%;">
                                             <div class="card">
                                                 <div class="card-header">
-                                                    <p>Membantu bang</p>
+                                                    <img src="https://example.com/image.jpg" alt="Gita Savitri"
+                                                        class="card-img-top">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Gita Savitri</h5>
+                                                        <p class="card-text">Lorem ipsum is simply free dumy text of
+                                                            the printing and amet con piscing.</p>
+                                                    </div>
                                                 </div>
                                                 <!-- card content -->
                                             </div>
@@ -1809,7 +1826,13 @@
                                         <div class="" style="flex: 0 0 21.3%; max-width: 21.3%;">
                                             <div class="card">
                                                 <div class="card-header">
-                                                    <p>Membantu cuy</p>
+                                                    <img src="https://example.com/image.jpg" alt="Gita Savitri"
+                                                        class="card-img-top">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Gita Savitri</h5>
+                                                        <p class="card-text">Lorem ipsum is simply free dumy text of
+                                                            the printing and amet con piscing.</p>
+                                                    </div>
                                                 </div>
                                                 <!-- card content -->
                                             </div>
@@ -1821,7 +1844,13 @@
                                         <div class="" style="flex: 0 0 21%; max-width: 21%;">
                                             <div class="card">
                                                 <div class="card-header">
-                                                    <p>Mwantep</p>
+                                                    <img src="https://example.com/image.jpg" alt="Gita Savitri"
+                                                        class="card-img-top">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Gita Savitri</h5>
+                                                        <p class="card-text">Lorem ipsum is simply free dumy text of
+                                                            the printing and amet con piscing.</p>
+                                                    </div>
                                                 </div>
                                                 <!-- card content -->
                                             </div>
@@ -1829,7 +1858,13 @@
                                         <div class="" style="flex: 0 0 21%; max-width: 21%;">
                                             <div class="card">
                                                 <div class="card-header">
-                                                    <p>Mwantep coy</p>
+                                                    <img src="https://example.com/image.jpg" alt="Gita Savitri"
+                                                        class="card-img-top">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Gita Savitri</h5>
+                                                        <p class="card-text">Lorem ipsum is simply free dumy text of
+                                                            the printing and amet con piscing.</p>
+                                                    </div>
                                                 </div>
                                                 <!-- card content -->
                                             </div>
@@ -1837,7 +1872,13 @@
                                         <div class="" style="flex: 0 0 21%; max-width: 21%;">
                                             <div class="card">
                                                 <div class="card-header">
-                                                    <p>Mwantep Cung</p>
+                                                    <img src="https://example.com/image.jpg" alt="Gita Savitri"
+                                                        class="card-img-top">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Gita Savitri</h5>
+                                                        <p class="card-text">Lorem ipsum is simply free dumy text of
+                                                            the printing and amet con piscing.</p>
+                                                    </div>
                                                 </div>
                                                 <!-- card content -->
                                             </div>
@@ -1845,7 +1886,13 @@
                                         <div class="" style="flex: 0 0 21%; max-width: 21%;">
                                             <div class="card">
                                                 <div class="card-header">
-                                                    <p>Mwantep cihuyy</p>
+                                                    <img src="https://example.com/image.jpg" alt="Gita Savitri"
+                                                        class="card-img-top">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Gita Savitri</h5>
+                                                        <p class="card-text">Lorem ipsum is simply free dumy text of
+                                                            the printing and amet con piscing.</p>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -1853,41 +1900,61 @@
                                 </div>
                             </div>
                             <div class="container" style="margin-left: 65px">
-                              <div class="row mt-6">
-                                  <div class="col-lg-6 ">
-                                      <h2 class="fs-2" style="color: #433D8B">JobCo Telah Berdampak Positif Mencetak <br>Talenta Digital Indonesia</h2>
-                                      <p>Platform untuk mempertemukan dan menghubungkan fresh graduate atau orang yang belum mendapat pekerjaan. Di dalam platform ini, mereka akan dipertemukan dengan berbagai mentor yang ahli di bidangnya. Mentor-mentor ini akan membimbing mereka mulai dari wawancara, membuat CV, merangkai LinkedIn, dan lain-lain yang berhubungan dengan pekerjaan yang akan dilamar.</p>
-                                      <button class="btn text-light w-25" style="background-color: #625D9E; border-radius: 9px">Daftar</button>
-                                      <button class="btn w-25" style="color: #625D9E; border-color: #625D9E; border-radius: 9px">Masuk</button>
-                                  </div>
-                                  <div class="col-lg-2 ms-6">
-                                      <div class="card">
-                                          <div class="card-body bg-dark text-light rounded">
-                                              <h5 class="card-title">217K</h5>
-                                              <p class="card-text">Digitalent</p>
-                                              <h5 class="card-title">36</h5>
-                                              <p class="card-text">Kelas Online</p>
-                                              <h5 class="card-title">74</h5>
-                                              <p class="card-text">Partner Kolaborasi</p>
-                                          </div>
-                                      </div>
-                                  </div>
-                                  <div class="col-lg-2">
-                                      <img src="/img/austin-distel-jpHw8ndwJ_Q-unsplash 3.png" alt="Image 1">
-                                      <img class="mt-5" src="/img/multiracial-group-young-creative-people-smart-casual-wear-discussing-business-brainstorming-meeting-ideas-mobile-application-software-design-project-modern-office 4.png" alt="Image 2">
-                                  </div>
-                              </div>
-                              <div class="row mt-4">
-                                  <div class="col-lg-12">
-                                      <p>Perusahaan yang bekerja sama dengan kami</p>
-                                      <div class="d-flex justify-content-center">
-                                          <a href="#" class="me-3"><img src="https://www.slack.com/static/img/icons/slack_icon_32x32.png" alt="Slack"></a>
-                                          <a href="#" class="me-3"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/2048px-Microsoft_logo.svg.png" alt="Microsoft"></a>
-                                          <a href="#" class="me-3"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.svg/2048px-Facebook_Logo_%282019%29.svg.png" alt="Facebook"></a>
-                                      </div>
-                                  </div>
-                              </div>
-                          </div>
+                                <div class="row mt-6">
+                                    <div class="col-lg-6 ">
+                                        <h2 class="fs-2" style="color: #433D8B">JobCo Telah Berdampak Positif
+                                            Mencetak <br>Talenta Digital Indonesia</h2>
+                                        <p>Platform untuk mempertemukan dan menghubungkan fresh graduate atau orang yang
+                                            belum mendapat pekerjaan. Di dalam platform ini, mereka akan dipertemukan
+                                            dengan berbagai mentor yang ahli di bidangnya. Mentor-mentor ini akan
+                                            membimbing mereka mulai dari wawancara, membuat CV, merangkai LinkedIn, dan
+                                            lain-lain yang berhubungan dengan pekerjaan yang akan dilamar.</p>
+                                        <button class="btn text-light w-25"
+                                            style="background-color: #625D9E; border-radius: 9px">Daftar</button>
+                                        <button class="btn w-25"
+                                            style="color: #625D9E; border-color: #625D9E; border-radius: 9px">Masuk</button>
+                                    </div>
+                                    <div class="col-lg-2 ms-6">
+                                        <div class="card">
+                                            <div class="card-body bg-dark text-light rounded">
+                                                <h5 class="card-title">217K</h5>
+                                                <p class="card-text">Digitalent</p>
+                                                <h5 class="card-title">36</h5>
+                                                <p class="card-text">Kelas Online</p>
+                                                <h5 class="card-title">74</h5>
+                                                <p class="card-text">Partner Kolaborasi</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-2">
+                                        <img src="/img/austin-distel-jpHw8ndwJ_Q-unsplash 3.png" alt="Image 1">
+                                        <img class="mt-5"
+                                            src="/img/multiracial-group-young-creative-people-smart-casual-wear-discussing-business-brainstorming-meeting-ideas-mobile-application-software-design-project-modern-office 4.png"
+                                            alt="Image 2">
+                                    </div>
+                                </div>
+                                <div class="row mt-4">
+                                    <div class="col-lg-12">
+                                        <p>Perusahaan yang bekerja sama dengan kami</p>
+                                        <div class="d-flex">
+                                            <a href="#" class="me-3"><img
+                                                    src="/img/google-logo-search-new-svgrepo-com.svg" width="30"
+                                                    alt="Google"></a>
+                                            <a href="#" class="me-3"><img src="/img/Slack-Logo-PNG4.png"
+                                                    width="58" alt="Slack"></a>
+                                            <a href="#" class="me-3"><img
+                                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/2048px-Microsoft_logo.svg.png"
+                                                    width="30" alt="Microsoft"></a>
+                                            <a href="#" class="me-3"><img
+                                                    src="/img/facebook-color-svgrepo-com.svg" width="30"
+                                                    alt="Facebook"></a>
+                                            <a href="#" class="me-3"><img
+                                                    src="/img/amazon-color-svgrepo-com.svg" width="30"
+                                                    alt="Amazon"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                             {{-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
                               data-bs-slide="prev">
                               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -2667,53 +2734,143 @@
                     </div>
                 </div>
             </div>
-            <footer class="footer footer-transparent d-print-none">
-                <div class="container-xl">
-                    <div class="row text-center align-items-center flex-row-reverse">
-                        <div class="col-lg-auto ms-lg-auto">
-                            <ul class="list-inline list-inline-dots mb-0">
-                                <li class="list-inline-item"><a href="https://tabler.io/docs" target="_blank"
-                                        class="link-secondary" rel="noopener">Documentation</a></li>
-                                <li class="list-inline-item"><a href="./license.html"
-                                        class="link-secondary">License</a>
+            <footer class="footer footer-transparent d-print-none mt-6">
+                <div class="container-fluid">
+                    <div class="row ">
+                        <div class="col-md-4" style="margin-left: 120px">
+                            <h5 class="mb-3 fs-2 text-dark fw-bolder">JobCo</h5>
+                            <ul class="list-unstyled">
+                                <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                        viewBox="0 0 24 24" fill="currentColor"
+                                        class="icon icon-tabler icons-tabler-filled icon-tabler-map-pin">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                        <path
+                                            d="M18.364 4.636a9 9 0 0 1 .203 12.519l-.203 .21l-4.243 4.242a3 3 0 0 1 -4.097 .135l-.144 -.135l-4.244 -4.243a9 9 0 0 1 12.728 -12.728zm-6.364 3.364a3 3 0 1 0 0 6a3 3 0 0 0 0 -6z" />
+                                    </svg><a href="#" class="text-muted"><i class="fas fa-map-marker-alt"></i>
+                                        JobCo</a>
                                 </li>
-                                <li class="list-inline-item"><a href="https://github.com/tabler/tabler"
-                                        target="_blank" class="link-secondary" rel="noopener">Source code</a></li>
-                                <li class="list-inline-item">
-                                    <a href="https://github.com/sponsors/codecalm" target="_blank"
-                                        class="link-secondary" rel="noopener">
-                                        <!-- Download SVG icon from http://tabler-icons.io/i/heart -->
-                                        <svg xmlns="http://www.w3.org/2000/svg"
-                                            class="icon text-pink icon-filled icon-inline" width="24"
-                                            height="24" viewBox="0 0 24 24" stroke-width="2"
-                                            stroke="currentColor" fill="none" stroke-linecap="round"
-                                            stroke-linejoin="round">
-                                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                            <path
-                                                d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
-                                        </svg>
-                                        Sponsor
-                                    </a>
-                                </li>
+                                <li class="mt-2"><a href="#" class="text-muted ms-4">Jl. Simprug Golf 8 No.6,
+                                        RT.2/RW.8,
+                                        Grogol Sel.,</a></li>
+                                <li><a href="#" class="text-muted ms-4">Kec. Kby. Lama, Kota Jakarta Selatan,
+                                        Daerah</a></li>
+                                <li><a href="#" class="text-muted ms-4">Khusus Ibukota Jakarta 12220</a></li>
+                                <li><a href="#" class="text-muted ms-4"><i class="fas fa-globe"></i> Lihat di
+                                        Google
+                                        Maps</a></li>
+                                <li class="mt-3"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                        height="24" viewBox="0 0 24 24" fill="currentColor"
+                                        class="icon icon-tabler icons-tabler-filled icon-tabler-mail">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                        <path
+                                            d="M22 7.535v9.465a3 3 0 0 1 -2.824 2.995l-.176 .005h-14a3 3 0 0 1 -2.995 -2.824l-.005 -.176v-9.465l9.445 6.297l.116 .066a1 1 0 0 0 .878 0l.116 -.066l9.445 -6.297z" />
+                                        <path
+                                            d="M19 4c1.08 0 2.027 .57 2.555 1.427l-9.555 6.37l-9.555 -6.37a2.999 2.999 0 0 1 2.354 -1.42l.201 -.007h14z" />
+                                    </svg><a href="#" class="text-muted"><i class="fas fa-envelope"></i>
+                                        info@jobco.com</a></li>
+                                <li class="mt-3"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                        height="24" viewBox="0 0 24 24" fill="currentColor"
+                                        class="icon icon-tabler icons-tabler-filled icon-tabler-phone">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                        <path
+                                            d="M9 3a1 1 0 0 1 .877 .519l.051 .11l2 5a1 1 0 0 1 -.313 1.16l-.1 .068l-1.674 1.004l.063 .103a10 10 0 0 0 3.132 3.132l.102 .062l1.005 -1.672a1 1 0 0 1 1.113 -.453l.115 .039l5 2a1 1 0 0 1 .622 .807l.007 .121v4c0 1.657 -1.343 3 -3.06 2.998c-8.579 -.521 -15.418 -7.36 -15.94 -15.998a3 3 0 0 1 2.824 -2.995l.176 -.005h4z" />
+                                    </svg><a href="#" class="text-muted"><i class="fas fa-phone"></i> +62123
+                                        4567
+                                        8910</a></li>
                             </ul>
                         </div>
-                        <div class="col-12 col-lg-auto mt-3 mt-lg-0">
-                            <ul class="list-inline list-inline-dots mb-0">
-                                <li class="list-inline-item">
-                                    Copyright &copy; 2023
-                                    <a href="." class="link-secondary">Tabler</a>.
-                                    All rights reserved.
-                                </li>
-                                <li class="list-inline-item">
-                                    <a href="./changelog.html" class="link-secondary" rel="noopener">
-                                        v1.0.0-beta20
-                                    </a>
-                                </li>
+                        <div class="col-md-1" style="margin-left: 185px">
+                            <h5 class="mb-3 text-dark">JOBCO</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="#" class="text-muted">Tentang</a></li>
+                                <li><a href="#" class="text-muted">Karir</a></li>
+                                <li><a href="#" class="text-muted">Kerjasama</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-1">
+                            <h5 class="mb-3 text-dark">PRODUK</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="#" class="text-muted">E-learning</a></li>
+                                <li><a href="#" class="text-muted">Bootcamp</a></li>
+                                <li><a href="#" class="text-muted">Review CV</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-2">
+                            <h5 class="mb-3 text-dark">BANTUAN DAN PANDUAN</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="#" class="text-muted">FAQ</a></li>
+                                <li><a href="#" class="text-muted">Syarat dan Ketentuan</a></li>
+                                <li><a href="#" class="text-muted">Ketentuan Privasi</a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </footer>
+            {{-- <footer class="container-fluid bg-light py-3">
+                <div class="row">
+                    <div class="col-md-4" style="margin-left: 120px">
+                        <h5 class="mb-3 fs-2">JobCo</h5>
+                        <ul class="list-unstyled">
+                            <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                viewBox="0 0 24 24" fill="currentColor"
+                                class="icon icon-tabler icons-tabler-filled icon-tabler-map-pin">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <path
+                                    d="M18.364 4.636a9 9 0 0 1 .203 12.519l-.203 .21l-4.243 4.242a3 3 0 0 1 -4.097 .135l-.144 -.135l-4.244 -4.243a9 9 0 0 1 12.728 -12.728zm-6.364 3.364a3 3 0 1 0 0 6a3 3 0 0 0 0 -6z" />
+                            </svg><a href="#" class="text-muted"><i class="fas fa-map-marker-alt"></i> JobCo</a>
+                            </li>
+                            <li><a href="#" class="text-muted">Jl. Simprug Golf 8 No.6, RT.2/RW.8, Grogol Sel.,
+                                    Kec. Kby. Lama, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12220</a></li>
+                            <li><a href="#" class="text-muted"><i class="fas fa-globe"></i> Lihat di Google
+                                    Maps</a></li>
+                            <li><a href="#" class="text-muted"><i class="fas fa-envelope"></i>
+                                    info@jobco.com</a></li>
+                            <li><a href="#" class="text-muted"><i class="fas fa-phone"></i> +62123 4567
+                                    8910</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-1" style="margin-left: 185px">
+                        <h5 class="mb-3">JOBCO</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="text-muted">Tentang</a></li>
+                            <li><a href="#" class="text-muted">Karir</a></li>
+                            <li><a href="#" class="text-muted">Kerjasama</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-1">
+                        <h5 class="mb-3">PRODUK</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="text-muted">E-learning</a></li>
+                            <li><a href="#" class="text-muted">Bootcamp</a></li>
+                            <li><a href="#" class="text-muted">Review CV</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2">
+                        <h5 class="mb-3">BANTUAN DAN PANDUAN</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="text-muted">FAQ</a></li>
+                            <li><a href="#" class="text-muted">Syarat dan Ketentuan</a></li>
+                            <li><a href="#" class="text-muted">Ketentuan Privasi</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-md-12 text-center">
+                        <ul class="list-inline">
+                            <li class="list-inline-item"><a href="#" class="text-muted"><i
+                                        class="fab fa-tiktok"></i></a></li>
+                            <li class="list-inline-item"><a href="#" class="text-muted"><i
+                                        class="fab fa-instagram"></i></a></li>
+                            <li class="list-inline-item"><a href="#" class="text-muted"><i
+                                        class="fab fa-linkedin-in"></i></a></li>
+                            <li class="list-inline-item"><a href="#" class="text-muted"><i
+                                        class="fab fa-twitter"></i></a></li>
+                            <li class="list-inline-item"><a href="#" class="text-muted"><i
+                                        class="fab fa-youtube"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </footer> --}}
         </div>
     </div>
     <div class="modal modal-blur fade" id="modal-report" tabindex="-1" role="dialog" aria-hidden="true">
@@ -2721,7 +2878,8 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title">New report</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                     <div class="mb-3">
