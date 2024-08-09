@@ -1644,23 +1644,42 @@
                                 </div>
                             </div> --}}
                             <div class="card-body ms-auto">
-                                <div class="row align-items-center">
-                                    <div class="col-10">
-                                        <h3 class="h1 text-left">Tabler Icons</h3>
-                                        <div class="markdown text-secondary text-left">
-                                            All icons come from the Tabler Icons set and are MIT-licensed. Visit
-                                            <a href="https://tabler-icons.io" target="_blank"
-                                                rel="noopener">tabler-icons.io</a>,
-                                            download any of the 4637 icons in SVG, PNG or&nbsp;React and use them in
-                                            your favourite design tools.
-                                        </div>
-                                        <div class="mt-3">
-                                            <a href="https://tabler-icons.io" class="btn btn-primary" target="_blank"
-                                                rel="noopener">Download icons</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                              <div class="row">
+                                  <div class="col-12">
+                                      <h5 class="card-title">E-Learning / Kelas</h5>
+                                      <p class="card-text">Ikuti kelas live mendalam yang dipandu oleh para ahli industri. Dapatkan keterampilan praktis melalui:</p>
+                                  </div>
+                              </div>
+                              <div class="row mt-4">
+                                  <div class="col-1">
+                                      <input class="form-check-input" type="checkbox" disabled checked>
+                                  </div>
+                                  <div class="col-11">
+                                      <p class="mb-0">Kombinasi studi kasus, diskusi, dan praktik langsung, cocok untuk semua level dari pemula hingga tingkat lanjut.</p>
+                                  </div>
+                              </div>
+                              <div class="row">
+                                  <div class="col-1 mt-3">
+                                      <input class="form-check-input" type="checkbox" disabled checked>
+                                  </div>
+                                  <div class="col-11 mt-3">
+                                      <p class="mb-0">Sesi mentoring kelompok semi-privat yang dirancang untuk membantu Anda membangun portofolio profesional.</p>
+                                  </div>
+                              </div>
+                              <div class="row">
+                                  <div class="col-1 mt-3">
+                                      <input class="form-check-input" type="checkbox" disabled checked>
+                                  </div>
+                                  <div class="col-11 mt-3">
+                                      <p class="mb-0">Akses ke tutor berpengalaman dengan jaringan lebih dari 30.000 alumni.</p>
+                                  </div>
+                              </div>
+                              <div class="row mt-4">
+                                  <div class="col-12">
+                                      <a href="#" class="btn btn-primary">Lihat Selengkapnya</a>
+                                  </div>
+                              </div>
+                          </div>
                         </div>
                         <div class="col-10">
                             {{-- <div class="card-stamp card-stamp-lg ms-auto">
@@ -1748,8 +1767,14 @@
                                     <div class="row justify-content-center">
                                         <div class="" style="flex: 0 0 21.3%; max-width: 21.3%;">
                                             <div class="card ">
-                                                <div class="card-header ">
-                                                    <p class="">Kursusnya mantep</p>
+                                                <div class="card-header">
+                                                    <img src="https://example.com/image.jpg" alt="Gita Savitri"
+                                                        class="card-img-top">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Gita Savitri</h5>
+                                                        <p class="card-text">Lorem ipsum is simply free dumy text of
+                                                            the printing and amet con piscing.</p>
+                                                    </div>
                                                 </div>
                                                 <!-- card content -->
                                             </div>
@@ -1757,7 +1782,13 @@
                                         <div class="" style="flex: 0 0 21.3%; max-width: 21.3%;">
                                             <div class="card">
                                                 <div class="card-header">
-                                                    <p>Kursusnya mantep weh</p>
+                                                    <img src="https://example.com/image.jpg" alt="Gita Savitri"
+                                                        class="card-img-top">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Gita Savitri</h5>
+                                                        <p class="card-text">Lorem ipsum is simply free dumy text of
+                                                            the printing and amet con piscing.</p>
+                                                    </div>
                                                 </div>
                                                 <!-- card content -->
                                             </div>
@@ -1765,7 +1796,13 @@
                                         <div class="" style="flex: 0 0 21.3%; max-width: 21.3%;">
                                             <div class="card">
                                                 <div class="card-header">
-                                                    <p>Kursusnya mantep bang</p>
+                                                    <img src="https://example.com/image.jpg" alt="Gita Savitri"
+                                                        class="card-img-top">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Gita Savitri</h5>
+                                                        <p class="card-text">Lorem ipsum is simply free dumy text of
+                                                            the printing and amet con piscing.</p>
+                                                    </div>
                                                 </div>
                                                 <!-- card content -->
                                             </div>
@@ -1773,7 +1810,13 @@
                                         <div class="" style="flex: 0 0 21.3%; max-width: 21.3%;">
                                             <div class="card">
                                                 <div class="card-header">
-                                                    <p>Kursusnya mantep cihuy</p>
+                                                    <img src="https://example.com/image.jpg" alt="Gita Savitri"
+                                                        class="card-img-top">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Gita Savitri</h5>
+                                                        <p class="card-text">Lorem ipsum is simply free dumy text of
+                                                            the printing and amet con piscing.</p>
+                                                    </div>
                                                 </div>
                                                 <!-- card content -->
                                             </div>
@@ -1785,7 +1828,13 @@
                                         <div class="" style="flex: 0 0 21.3%; max-width: 21.3%;">
                                             <div class="card">
                                                 <div class="card-header">
-                                                    <p>Membantu</p>
+                                                    <img src="https://example.com/image.jpg" alt="Gita Savitri"
+                                                        class="card-img-top">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Gita Savitri</h5>
+                                                        <p class="card-text">Lorem ipsum is simply free dumy text of
+                                                            the printing and amet con piscing.</p>
+                                                    </div>
                                                 </div>
                                                 <!-- card content -->
                                             </div>
@@ -1793,7 +1842,13 @@
                                         <div class="" style="flex: 0 0 21.3%; max-width: 21.3%;">
                                             <div class="card">
                                                 <div class="card-header">
-                                                    <p>Membantu bangget</p>
+                                                    <img src="https://example.com/image.jpg" alt="Gita Savitri"
+                                                        class="card-img-top">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Gita Savitri</h5>
+                                                        <p class="card-text">Lorem ipsum is simply free dumy text of
+                                                            the printing and amet con piscing.</p>
+                                                    </div>
                                                 </div>
                                                 <!-- card content -->
                                             </div>
@@ -1801,7 +1856,13 @@
                                         <div class="" style="flex: 0 0 21.3%; max-width: 21.3%;">
                                             <div class="card">
                                                 <div class="card-header">
-                                                    <p>Membantu bang</p>
+                                                    <img src="https://example.com/image.jpg" alt="Gita Savitri"
+                                                        class="card-img-top">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Gita Savitri</h5>
+                                                        <p class="card-text">Lorem ipsum is simply free dumy text of
+                                                            the printing and amet con piscing.</p>
+                                                    </div>
                                                 </div>
                                                 <!-- card content -->
                                             </div>
@@ -1809,7 +1870,13 @@
                                         <div class="" style="flex: 0 0 21.3%; max-width: 21.3%;">
                                             <div class="card">
                                                 <div class="card-header">
-                                                    <p>Membantu cuy</p>
+                                                    <img src="https://example.com/image.jpg" alt="Gita Savitri"
+                                                        class="card-img-top">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Gita Savitri</h5>
+                                                        <p class="card-text">Lorem ipsum is simply free dumy text of
+                                                            the printing and amet con piscing.</p>
+                                                    </div>
                                                 </div>
                                                 <!-- card content -->
                                             </div>
@@ -1821,7 +1888,13 @@
                                         <div class="" style="flex: 0 0 21%; max-width: 21%;">
                                             <div class="card">
                                                 <div class="card-header">
-                                                    <p>Mwantep</p>
+                                                    <img src="https://example.com/image.jpg" alt="Gita Savitri"
+                                                        class="card-img-top">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Gita Savitri</h5>
+                                                        <p class="card-text">Lorem ipsum is simply free dumy text of
+                                                            the printing and amet con piscing.</p>
+                                                    </div>
                                                 </div>
                                                 <!-- card content -->
                                             </div>
@@ -1829,7 +1902,13 @@
                                         <div class="" style="flex: 0 0 21%; max-width: 21%;">
                                             <div class="card">
                                                 <div class="card-header">
-                                                    <p>Mwantep coy</p>
+                                                    <img src="https://example.com/image.jpg" alt="Gita Savitri"
+                                                        class="card-img-top">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Gita Savitri</h5>
+                                                        <p class="card-text">Lorem ipsum is simply free dumy text of
+                                                            the printing and amet con piscing.</p>
+                                                    </div>
                                                 </div>
                                                 <!-- card content -->
                                             </div>
@@ -1837,7 +1916,13 @@
                                         <div class="" style="flex: 0 0 21%; max-width: 21%;">
                                             <div class="card">
                                                 <div class="card-header">
-                                                    <p>Mwantep Cung</p>
+                                                    <img src="https://example.com/image.jpg" alt="Gita Savitri"
+                                                        class="card-img-top">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Gita Savitri</h5>
+                                                        <p class="card-text">Lorem ipsum is simply free dumy text of
+                                                            the printing and amet con piscing.</p>
+                                                    </div>
                                                 </div>
                                                 <!-- card content -->
                                             </div>
@@ -1845,7 +1930,13 @@
                                         <div class="" style="flex: 0 0 21%; max-width: 21%;">
                                             <div class="card">
                                                 <div class="card-header">
-                                                    <p>Mwantep cihuyy</p>
+                                                    <img src="https://example.com/image.jpg" alt="Gita Savitri"
+                                                        class="card-img-top">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Gita Savitri</h5>
+                                                        <p class="card-text">Lorem ipsum is simply free dumy text of
+                                                            the printing and amet con piscing.</p>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -1853,41 +1944,61 @@
                                 </div>
                             </div>
                             <div class="container" style="margin-left: 65px">
-                              <div class="row mt-6">
-                                  <div class="col-lg-6 ">
-                                      <h2 class="fs-2" style="color: #433D8B">JobCo Telah Berdampak Positif Mencetak <br>Talenta Digital Indonesia</h2>
-                                      <p>Platform untuk mempertemukan dan menghubungkan fresh graduate atau orang yang belum mendapat pekerjaan. Di dalam platform ini, mereka akan dipertemukan dengan berbagai mentor yang ahli di bidangnya. Mentor-mentor ini akan membimbing mereka mulai dari wawancara, membuat CV, merangkai LinkedIn, dan lain-lain yang berhubungan dengan pekerjaan yang akan dilamar.</p>
-                                      <button class="btn text-light w-25" style="background-color: #625D9E; border-radius: 9px">Daftar</button>
-                                      <button class="btn w-25" style="color: #625D9E; border-color: #625D9E; border-radius: 9px">Masuk</button>
-                                  </div>
-                                  <div class="col-lg-2 ms-6">
-                                      <div class="card">
-                                          <div class="card-body bg-dark text-light rounded">
-                                              <h5 class="card-title">217K</h5>
-                                              <p class="card-text">Digitalent</p>
-                                              <h5 class="card-title">36</h5>
-                                              <p class="card-text">Kelas Online</p>
-                                              <h5 class="card-title">74</h5>
-                                              <p class="card-text">Partner Kolaborasi</p>
-                                          </div>
-                                      </div>
-                                  </div>
-                                  <div class="col-lg-2">
-                                      <img src="/img/austin-distel-jpHw8ndwJ_Q-unsplash 3.png" alt="Image 1">
-                                      <img class="mt-5" src="/img/multiracial-group-young-creative-people-smart-casual-wear-discussing-business-brainstorming-meeting-ideas-mobile-application-software-design-project-modern-office 4.png" alt="Image 2">
-                                  </div>
-                              </div>
-                              <div class="row mt-4">
-                                  <div class="col-lg-12">
-                                      <p>Perusahaan yang bekerja sama dengan kami</p>
-                                      <div class="d-flex justify-content-center">
-                                          <a href="#" class="me-3"><img src="https://www.slack.com/static/img/icons/slack_icon_32x32.png" alt="Slack"></a>
-                                          <a href="#" class="me-3"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/2048px-Microsoft_logo.svg.png" alt="Microsoft"></a>
-                                          <a href="#" class="me-3"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.svg/2048px-Facebook_Logo_%282019%29.svg.png" alt="Facebook"></a>
-                                      </div>
-                                  </div>
-                              </div>
-                          </div>
+                                <div class="row mt-6">
+                                    <div class="col-lg-6 ">
+                                        <h2 class="fs-2" style="color: #433D8B">JobCo Telah Berdampak Positif
+                                            Mencetak <br>Talenta Digital Indonesia</h2>
+                                        <p>Platform untuk mempertemukan dan menghubungkan fresh graduate atau orang yang
+                                            belum mendapat pekerjaan. Di dalam platform ini, mereka akan dipertemukan
+                                            dengan berbagai mentor yang ahli di bidangnya. Mentor-mentor ini akan
+                                            membimbing mereka mulai dari wawancara, membuat CV, merangkai LinkedIn, dan
+                                            lain-lain yang berhubungan dengan pekerjaan yang akan dilamar.</p>
+                                        <button class="btn text-light w-25"
+                                            style="background-color: #625D9E; border-radius: 9px">Daftar</button>
+                                        <button class="btn w-25"
+                                            style="color: #625D9E; border-color: #625D9E; border-radius: 9px">Masuk</button>
+                                    </div>
+                                    <div class="col-lg-2 ms-6">
+                                        <div class="card">
+                                            <div class="card-body bg-dark text-light rounded">
+                                                <h5 class="card-title">217K</h5>
+                                                <p class="card-text">Digitalent</p>
+                                                <h5 class="card-title">36</h5>
+                                                <p class="card-text">Kelas Online</p>
+                                                <h5 class="card-title">74</h5>
+                                                <p class="card-text">Partner Kolaborasi</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-2">
+                                        <img src="/img/austin-distel-jpHw8ndwJ_Q-unsplash 3.png" alt="Image 1">
+                                        <img class="mt-5"
+                                            src="/img/multiracial-group-young-creative-people-smart-casual-wear-discussing-business-brainstorming-meeting-ideas-mobile-application-software-design-project-modern-office 4.png"
+                                            alt="Image 2">
+                                    </div>
+                                </div>
+                                <div class="row mt-4">
+                                    <div class="col-lg-12">
+                                        <p>Perusahaan yang bekerja sama dengan kami</p>
+                                        <div class="d-flex">
+                                            <a href="#" class="me-3"><img
+                                                    src="/img/google-logo-search-new-svgrepo-com.svg" width="30"
+                                                    alt="Google"></a>
+                                            <a href="#" class="me-3"><img src="/img/Slack-Logo-PNG4.png"
+                                                    width="58" alt="Slack"></a>
+                                            <a href="#" class="me-3"><img
+                                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/2048px-Microsoft_logo.svg.png"
+                                                    width="30" alt="Microsoft"></a>
+                                            <a href="#" class="me-3"><img
+                                                    src="/img/facebook-color-svgrepo-com.svg" width="30"
+                                                    alt="Facebook"></a>
+                                            <a href="#" class="me-3"><img
+                                                    src="/img/amazon-color-svgrepo-com.svg" width="30"
+                                                    alt="Amazon"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                             {{-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
                               data-bs-slide="prev">
                               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -2667,53 +2778,143 @@
                     </div>
                 </div>
             </div>
-            <footer class="footer footer-transparent d-print-none">
-                <div class="container-xl">
-                    <div class="row text-center align-items-center flex-row-reverse">
-                        <div class="col-lg-auto ms-lg-auto">
-                            <ul class="list-inline list-inline-dots mb-0">
-                                <li class="list-inline-item"><a href="https://tabler.io/docs" target="_blank"
-                                        class="link-secondary" rel="noopener">Documentation</a></li>
-                                <li class="list-inline-item"><a href="./license.html"
-                                        class="link-secondary">License</a>
+            <footer class="footer footer-transparent d-print-none mt-6">
+                <div class="container-fluid">
+                    <div class="row ">
+                        <div class="col-md-4" style="margin-left: 120px">
+                            <h5 class="mb-3 fs-2 text-dark fw-bolder">JobCo</h5>
+                            <ul class="list-unstyled">
+                                <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                        viewBox="0 0 24 24" fill="currentColor"
+                                        class="icon icon-tabler icons-tabler-filled icon-tabler-map-pin">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                        <path
+                                            d="M18.364 4.636a9 9 0 0 1 .203 12.519l-.203 .21l-4.243 4.242a3 3 0 0 1 -4.097 .135l-.144 -.135l-4.244 -4.243a9 9 0 0 1 12.728 -12.728zm-6.364 3.364a3 3 0 1 0 0 6a3 3 0 0 0 0 -6z" />
+                                    </svg><a href="#" class="text-muted"><i class="fas fa-map-marker-alt"></i>
+                                        JobCo</a>
                                 </li>
-                                <li class="list-inline-item"><a href="https://github.com/tabler/tabler"
-                                        target="_blank" class="link-secondary" rel="noopener">Source code</a></li>
-                                <li class="list-inline-item">
-                                    <a href="https://github.com/sponsors/codecalm" target="_blank"
-                                        class="link-secondary" rel="noopener">
-                                        <!-- Download SVG icon from http://tabler-icons.io/i/heart -->
-                                        <svg xmlns="http://www.w3.org/2000/svg"
-                                            class="icon text-pink icon-filled icon-inline" width="24"
-                                            height="24" viewBox="0 0 24 24" stroke-width="2"
-                                            stroke="currentColor" fill="none" stroke-linecap="round"
-                                            stroke-linejoin="round">
-                                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                            <path
-                                                d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
-                                        </svg>
-                                        Sponsor
-                                    </a>
-                                </li>
+                                <li class="mt-2"><a href="#" class="text-muted ms-4">Jl. Simprug Golf 8 No.6,
+                                        RT.2/RW.8,
+                                        Grogol Sel.,</a></li>
+                                <li><a href="#" class="text-muted ms-4">Kec. Kby. Lama, Kota Jakarta Selatan,
+                                        Daerah</a></li>
+                                <li><a href="#" class="text-muted ms-4">Khusus Ibukota Jakarta 12220</a></li>
+                                <li><a href="#" class="text-muted ms-4"><i class="fas fa-globe"></i> Lihat di
+                                        Google
+                                        Maps</a></li>
+                                <li class="mt-3"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                        height="24" viewBox="0 0 24 24" fill="currentColor"
+                                        class="icon icon-tabler icons-tabler-filled icon-tabler-mail">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                        <path
+                                            d="M22 7.535v9.465a3 3 0 0 1 -2.824 2.995l-.176 .005h-14a3 3 0 0 1 -2.995 -2.824l-.005 -.176v-9.465l9.445 6.297l.116 .066a1 1 0 0 0 .878 0l.116 -.066l9.445 -6.297z" />
+                                        <path
+                                            d="M19 4c1.08 0 2.027 .57 2.555 1.427l-9.555 6.37l-9.555 -6.37a2.999 2.999 0 0 1 2.354 -1.42l.201 -.007h14z" />
+                                    </svg><a href="#" class="text-muted"><i class="fas fa-envelope"></i>
+                                        info@jobco.com</a></li>
+                                <li class="mt-3"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                        height="24" viewBox="0 0 24 24" fill="currentColor"
+                                        class="icon icon-tabler icons-tabler-filled icon-tabler-phone">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                        <path
+                                            d="M9 3a1 1 0 0 1 .877 .519l.051 .11l2 5a1 1 0 0 1 -.313 1.16l-.1 .068l-1.674 1.004l.063 .103a10 10 0 0 0 3.132 3.132l.102 .062l1.005 -1.672a1 1 0 0 1 1.113 -.453l.115 .039l5 2a1 1 0 0 1 .622 .807l.007 .121v4c0 1.657 -1.343 3 -3.06 2.998c-8.579 -.521 -15.418 -7.36 -15.94 -15.998a3 3 0 0 1 2.824 -2.995l.176 -.005h4z" />
+                                    </svg><a href="#" class="text-muted"><i class="fas fa-phone"></i> +62123
+                                        4567
+                                        8910</a></li>
                             </ul>
                         </div>
-                        <div class="col-12 col-lg-auto mt-3 mt-lg-0">
-                            <ul class="list-inline list-inline-dots mb-0">
-                                <li class="list-inline-item">
-                                    Copyright &copy; 2023
-                                    <a href="." class="link-secondary">Tabler</a>.
-                                    All rights reserved.
-                                </li>
-                                <li class="list-inline-item">
-                                    <a href="./changelog.html" class="link-secondary" rel="noopener">
-                                        v1.0.0-beta20
-                                    </a>
-                                </li>
+                        <div class="col-md-1" style="margin-left: 185px">
+                            <h5 class="mb-3 text-dark">JOBCO</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="#" class="text-muted">Tentang</a></li>
+                                <li><a href="#" class="text-muted">Karir</a></li>
+                                <li><a href="#" class="text-muted">Kerjasama</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-1">
+                            <h5 class="mb-3 text-dark">PRODUK</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="#" class="text-muted">E-learning</a></li>
+                                <li><a href="#" class="text-muted">Bootcamp</a></li>
+                                <li><a href="#" class="text-muted">Review CV</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-2">
+                            <h5 class="mb-3 text-dark">BANTUAN DAN PANDUAN</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="#" class="text-muted">FAQ</a></li>
+                                <li><a href="#" class="text-muted">Syarat dan Ketentuan</a></li>
+                                <li><a href="#" class="text-muted">Ketentuan Privasi</a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </footer>
+            {{-- <footer class="container-fluid bg-light py-3">
+                <div class="row">
+                    <div class="col-md-4" style="margin-left: 120px">
+                        <h5 class="mb-3 fs-2">JobCo</h5>
+                        <ul class="list-unstyled">
+                            <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                viewBox="0 0 24 24" fill="currentColor"
+                                class="icon icon-tabler icons-tabler-filled icon-tabler-map-pin">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <path
+                                    d="M18.364 4.636a9 9 0 0 1 .203 12.519l-.203 .21l-4.243 4.242a3 3 0 0 1 -4.097 .135l-.144 -.135l-4.244 -4.243a9 9 0 0 1 12.728 -12.728zm-6.364 3.364a3 3 0 1 0 0 6a3 3 0 0 0 0 -6z" />
+                            </svg><a href="#" class="text-muted"><i class="fas fa-map-marker-alt"></i> JobCo</a>
+                            </li>
+                            <li><a href="#" class="text-muted">Jl. Simprug Golf 8 No.6, RT.2/RW.8, Grogol Sel.,
+                                    Kec. Kby. Lama, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12220</a></li>
+                            <li><a href="#" class="text-muted"><i class="fas fa-globe"></i> Lihat di Google
+                                    Maps</a></li>
+                            <li><a href="#" class="text-muted"><i class="fas fa-envelope"></i>
+                                    info@jobco.com</a></li>
+                            <li><a href="#" class="text-muted"><i class="fas fa-phone"></i> +62123 4567
+                                    8910</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-1" style="margin-left: 185px">
+                        <h5 class="mb-3">JOBCO</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="text-muted">Tentang</a></li>
+                            <li><a href="#" class="text-muted">Karir</a></li>
+                            <li><a href="#" class="text-muted">Kerjasama</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-1">
+                        <h5 class="mb-3">PRODUK</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="text-muted">E-learning</a></li>
+                            <li><a href="#" class="text-muted">Bootcamp</a></li>
+                            <li><a href="#" class="text-muted">Review CV</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2">
+                        <h5 class="mb-3">BANTUAN DAN PANDUAN</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="text-muted">FAQ</a></li>
+                            <li><a href="#" class="text-muted">Syarat dan Ketentuan</a></li>
+                            <li><a href="#" class="text-muted">Ketentuan Privasi</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-md-12 text-center">
+                        <ul class="list-inline">
+                            <li class="list-inline-item"><a href="#" class="text-muted"><i
+                                        class="fab fa-tiktok"></i></a></li>
+                            <li class="list-inline-item"><a href="#" class="text-muted"><i
+                                        class="fab fa-instagram"></i></a></li>
+                            <li class="list-inline-item"><a href="#" class="text-muted"><i
+                                        class="fab fa-linkedin-in"></i></a></li>
+                            <li class="list-inline-item"><a href="#" class="text-muted"><i
+                                        class="fab fa-twitter"></i></a></li>
+                            <li class="list-inline-item"><a href="#" class="text-muted"><i
+                                        class="fab fa-youtube"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </footer> --}}
         </div>
     </div>
     <div class="modal modal-blur fade" id="modal-report" tabindex="-1" role="dialog" aria-hidden="true">
