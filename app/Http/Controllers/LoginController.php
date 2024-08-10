@@ -19,6 +19,8 @@ class LoginController extends Controller
         // cek password
         $password = $request->input('password');
 
+
+        // return true;
         if (Auth::attempt(['email' => $email, 'password' => $password])) {
             return true;
         }
