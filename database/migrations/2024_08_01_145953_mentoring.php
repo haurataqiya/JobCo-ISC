@@ -12,7 +12,7 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('mentoring', function (Blueprint $table) {
-            $table->id('class_id')->auto_increment()->unsigned();
+            $table->id('mentoring_id')->auto_increment()->unsigned();
             $table->unsignedBigInteger('mtype_id');
             $table->foreign('mtype_id')->references('mtype_id')->on('mentoring_type')
                 ->onUpdate('cascade')

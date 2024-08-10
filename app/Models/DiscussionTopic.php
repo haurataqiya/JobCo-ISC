@@ -21,6 +21,6 @@ class DiscussionTopic extends Model
         return $this->hasMany(DiscussionReply::class, 'disc_rep_id', 'id');
     }
     public function users(){
-        return $this->belongsTo(Users::class, 'user_id', 'id');
+        return $this->belongsTo(User::class, 'user_id', 'id');
     }
 }
