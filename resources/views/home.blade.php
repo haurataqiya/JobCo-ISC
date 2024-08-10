@@ -182,7 +182,7 @@
                         </span>
                     </div>
                     <div class="nav-item dropdown px-2">
-                        <a href="/sign-in" class="btn d-none d-sm-inline-block text-light"
+                        <a href="{{ route('form-masuk') }}" class="btn d-none d-sm-inline-block text-light"
                             style="background-color: #625D9E; border-radius: 9px">
                             <!-- Download SVG icon from http://tabler-icons.io/i/plus -->
                             {{-- <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 5l0 14" /><path d="M5 12l14 0" /></svg> --}}
@@ -1644,42 +1644,46 @@
                                 </div>
                             </div> --}}
                             <div class="card-body ms-auto">
-                              <div class="row">
-                                  <div class="col-12">
-                                      <h5 class="card-title">E-Learning / Kelas</h5>
-                                      <p class="card-text">Ikuti kelas live mendalam yang dipandu oleh para ahli industri. Dapatkan keterampilan praktis melalui:</p>
-                                  </div>
-                              </div>
-                              <div class="row mt-4">
-                                  <div class="col-1">
-                                      <input class="form-check-input" type="checkbox" disabled checked>
-                                  </div>
-                                  <div class="col-11">
-                                      <p class="mb-0">Kombinasi studi kasus, diskusi, dan praktik langsung, cocok untuk semua level dari pemula hingga tingkat lanjut.</p>
-                                  </div>
-                              </div>
-                              <div class="row">
-                                  <div class="col-1 mt-3">
-                                      <input class="form-check-input" type="checkbox" disabled checked>
-                                  </div>
-                                  <div class="col-11 mt-3">
-                                      <p class="mb-0">Sesi mentoring kelompok semi-privat yang dirancang untuk membantu Anda membangun portofolio profesional.</p>
-                                  </div>
-                              </div>
-                              <div class="row">
-                                  <div class="col-1 mt-3">
-                                      <input class="form-check-input" type="checkbox" disabled checked>
-                                  </div>
-                                  <div class="col-11 mt-3">
-                                      <p class="mb-0">Akses ke tutor berpengalaman dengan jaringan lebih dari 30.000 alumni.</p>
-                                  </div>
-                              </div>
-                              <div class="row mt-4">
-                                  <div class="col-12">
-                                      <a href="#" class="btn btn-primary">Lihat Selengkapnya</a>
-                                  </div>
-                              </div>
-                          </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h5 class="card-title">E-Learning / Kelas</h5>
+                                        <p class="card-text">Ikuti kelas live mendalam yang dipandu oleh para ahli
+                                            industri. Dapatkan keterampilan praktis melalui:</p>
+                                    </div>
+                                </div>
+                                <div class="row mt-4">
+                                    <div class="col-1">
+                                        <input class="form-check-input" type="checkbox" disabled checked>
+                                    </div>
+                                    <div class="col-11">
+                                        <p class="mb-0">Kombinasi studi kasus, diskusi, dan praktik langsung, cocok
+                                            untuk semua level dari pemula hingga tingkat lanjut.</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-1 mt-3">
+                                        <input class="form-check-input" type="checkbox" disabled checked>
+                                    </div>
+                                    <div class="col-11 mt-3">
+                                        <p class="mb-0">Sesi mentoring kelompok semi-privat yang dirancang untuk
+                                            membantu Anda membangun portofolio profesional.</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-1 mt-3">
+                                        <input class="form-check-input" type="checkbox" disabled checked>
+                                    </div>
+                                    <div class="col-11 mt-3">
+                                        <p class="mb-0">Akses ke tutor berpengalaman dengan jaringan lebih dari
+                                            30.000 alumni.</p>
+                                    </div>
+                                </div>
+                                <div class="row mt-4">
+                                    <div class="col-12">
+                                        <a href="#" class="btn btn-primary">Lihat Selengkapnya</a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div class="col-10">
                             {{-- <div class="card-stamp card-stamp-lg ms-auto">

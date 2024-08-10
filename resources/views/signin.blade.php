@@ -48,11 +48,12 @@
                         <div class="card card-md">
                             <div class="card-body">
                                 <h2 class="h2 text-center mb-4">Login to your account</h2>
-                                <form action="./" method="get" autocomplete="off" novalidate>
+                                <form action="{{ route('form-autentikasi') }}" method="POST" autocomplete="off" novalidate>
+                                    @csrf
                                     <div class="mb-3">
                                         <label class="form-label">Email address</label>
                                         <input type="email" class="form-control" placeholder="your@email.com"
-                                            autocomplete="off">
+                                            autocomplete="off" name="email" required>
                                     </div>
                                     <div class="mb-2">
                                         <label class="form-label">
@@ -63,7 +64,7 @@
                                         </label>
                                         <div class="input-group input-group-flat">
                                             <input type="password" class="form-control" placeholder="Your password"
-                                                autocomplete="off">
+                                                autocomplete="off" name="password" required>
                                             <span class="input-group-text">
                                                 <a href="#" class="link-secondary" title="Show password"
                                                     data-bs-toggle="tooltip"><!-- Download SVG icon from http://tabler-icons.io/i/eye -->
