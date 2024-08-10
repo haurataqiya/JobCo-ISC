@@ -22,6 +22,6 @@ class ClassCourse extends Model
         return $this->belongsTo(FieldWork::class, 'field_id', 'id');
     }
     public function mentor(){
-        return $this->belongsTo(Users::class, 'id', 'id');
+        return $this->belongsTo(User::class, 'id', 'id');
     }
 }
