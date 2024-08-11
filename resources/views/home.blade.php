@@ -751,51 +751,51 @@
             <div class="page-body">
                 <div class="container-xl">
                     <div class="row row-deck row-cards justify-content-center">
-                      <div class="col-sm-6 col-lg-2">
-                        <div class="card">
-                            <div class="card-body text-center">
-                                <img src="/img/image 54.png" alt="Laptop Icon" class="img-fluid">
-                                <h5 class="card-title mt-3">Lebih dari 1.2 Juta+ Pengguna</h5>
-                                <p class="card-text">Belajar Bersama</p>
+                        <div class="col-sm-6 col-lg-2">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <img src="/img/image 54.png" alt="Laptop Icon" class="img-fluid">
+                                    <h5 class="card-title mt-3">Lebih dari 1.2 Juta+ Pengguna</h5>
+                                    <p class="card-text">Belajar Bersama</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-2">
-                        <div class="card">
-                            <div class="card-body text-center">
-                                <img src="/img/image 51.png" alt="Mentor Icon" class="img-fluid">
-                                <h5 class="card-title mt-3">Akses ke Mentor</h5>
-                                <p class="card-text">Berpengalaman</p>
+                        <div class="col-sm-6 col-lg-2">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <img src="/img/image 51.png" alt="Mentor Icon" class="img-fluid">
+                                    <h5 class="card-title mt-3">Akses ke Mentor</h5>
+                                    <p class="card-text">Berpengalaman</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-2">
-                        <div class="card">
-                            <div class="card-body text-center">
-                                <img src="/img/image 57.png" alt="Community Icon" class="img-fluid">
-                                <h5 class="card-title mt-3">Komunitas Aktif Memberikan</h5>
-                                <p class="card-text">Dukungan untuk Berkembang</p>
+                        <div class="col-sm-6 col-lg-2">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <img src="/img/image 57.png" alt="Community Icon" class="img-fluid">
+                                    <h5 class="card-title mt-3">Komunitas Aktif Memberikan</h5>
+                                    <p class="card-text">Dukungan untuk Berkembang</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-2">
-                        <div class="card">
-                            <div class="card-body text-center">
-                                <img src="/img/image 53.png" alt="Training Icon" class="img-fluid">
-                                <h5 class="card-title mt-3">Pelatihan Profesional Sesuai</h5>
-                                <p class="card-text">Kebutuhan Industri</p>
+                        <div class="col-sm-6 col-lg-2">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <img src="/img/image 53.png" alt="Training Icon" class="img-fluid">
+                                    <h5 class="card-title mt-3">Pelatihan Profesional Sesuai</h5>
+                                    <p class="card-text">Kebutuhan Industri</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-2">
-                        <div class="card">
-                            <div class="card-body text-center">
-                                <img src="/img/image 58.png" alt="Networking Icon" class="img-fluid">
-                                <h5 class="card-title mt-3">Kesempatan Networking</h5>
-                                <p class="card-text">dengan Ahli Industri</p>
+                        <div class="col-sm-6 col-lg-2">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <img src="/img/image 58.png" alt="Networking Icon" class="img-fluid">
+                                    <h5 class="card-title mt-3">Kesempatan Networking</h5>
+                                    <p class="card-text">dengan Ahli Industri</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
                         {{-- <div class="col-sm-6 col-lg-3">
                   <div class="card">
                     <div class="card-body">
@@ -1724,8 +1724,10 @@
                                         <div class="" style="flex: 0 0 21.3%; max-width: 21.3%;">
                                             <div class="card ">
                                                 <div class="card-header">
-                                                    <img src="https://example.com/image.jpg" alt="Gita Savitri"
+                                                    <img src="/static/avatars/060m.jpg" alt="Gita Savitri"
                                                         class="card-img-top">
+                                                </div>
+                                                <div class="card-header">
                                                     <div class="card-body">
                                                         <h5 class="card-title">Gita Savitri</h5>
                                                         <p class="card-text">Lorem ipsum is simply free dumy text of
@@ -1738,8 +1740,10 @@
                                         <div class="" style="flex: 0 0 21.3%; max-width: 21.3%;">
                                             <div class="card">
                                                 <div class="card-header">
-                                                    <img src="https://example.com/image.jpg" alt="Gita Savitri"
+                                                    <img src="/static/avatars/060m.jpg" alt="Gita Savitri"
                                                         class="card-img-top">
+                                                </div>
+                                                <div class="card-header">
                                                     <div class="card-body">
                                                         <h5 class="card-title">Gita Savitri</h5>
                                                         <p class="card-text">Lorem ipsum is simply free dumy text of
@@ -1752,8 +1756,10 @@
                                         <div class="" style="flex: 0 0 21.3%; max-width: 21.3%;">
                                             <div class="card">
                                                 <div class="card-header">
-                                                    <img src="https://example.com/image.jpg" alt="Gita Savitri"
+                                                    <img src="/static/avatars/060m.jpg" alt="Gita Savitri"
                                                         class="card-img-top">
+                                                </div>
+                                                <div class="card-header">
                                                     <div class="card-body">
                                                         <h5 class="card-title">Gita Savitri</h5>
                                                         <p class="card-text">Lorem ipsum is simply free dumy text of
@@ -1766,8 +1772,10 @@
                                         <div class="" style="flex: 0 0 21.3%; max-width: 21.3%;">
                                             <div class="card">
                                                 <div class="card-header">
-                                                    <img src="https://example.com/image.jpg" alt="Gita Savitri"
+                                                    <img src="/static/avatars/060m.jpg" alt="Gita Savitri"
                                                         class="card-img-top">
+                                                </div>
+                                                <div class="card-header">
                                                     <div class="card-body">
                                                         <h5 class="card-title">Gita Savitri</h5>
                                                         <p class="card-text">Lorem ipsum is simply free dumy text of
@@ -1781,62 +1789,70 @@
                                 </div>
                                 <div class="carousel-item">
                                     <div class="row justify-content-center">
-                                        <div class="" style="flex: 0 0 21.3%; max-width: 21.3%;">
-                                            <div class="card">
-                                                <div class="card-header">
-                                                    <img src="https://example.com/image.jpg" alt="Gita Savitri"
-                                                        class="card-img-top">
-                                                    <div class="card-body">
-                                                        <h5 class="card-title">Gita Savitri</h5>
-                                                        <p class="card-text">Lorem ipsum is simply free dumy text of
-                                                            the printing and amet con piscing.</p>
-                                                    </div>
-                                                </div>
-                                                <!-- card content -->
+                                      <div class="" style="flex: 0 0 21.3%; max-width: 21.3%;">
+                                        <div class="card">
+                                            <div class="card-header">
+                                                <img src="/static/avatars/060m.jpg" alt="Gita Savitri"
+                                                    class="card-img-top">
                                             </div>
-                                        </div>
-                                        <div class="" style="flex: 0 0 21.3%; max-width: 21.3%;">
-                                            <div class="card">
-                                                <div class="card-header">
-                                                    <img src="https://example.com/image.jpg" alt="Gita Savitri"
-                                                        class="card-img-top">
-                                                    <div class="card-body">
-                                                        <h5 class="card-title">Gita Savitri</h5>
-                                                        <p class="card-text">Lorem ipsum is simply free dumy text of
-                                                            the printing and amet con piscing.</p>
-                                                    </div>
+                                            <div class="card-header">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Gita Savitri</h5>
+                                                    <p class="card-text">Lorem ipsum is simply free dumy text of
+                                                        the printing and amet con piscing.</p>
                                                 </div>
-                                                <!-- card content -->
                                             </div>
+                                            <!-- card content -->
                                         </div>
+                                    </div>
                                         <div class="" style="flex: 0 0 21.3%; max-width: 21.3%;">
-                                            <div class="card">
-                                                <div class="card-header">
-                                                    <img src="https://example.com/image.jpg" alt="Gita Savitri"
-                                                        class="card-img-top">
-                                                    <div class="card-body">
-                                                        <h5 class="card-title">Gita Savitri</h5>
-                                                        <p class="card-text">Lorem ipsum is simply free dumy text of
-                                                            the printing and amet con piscing.</p>
-                                                    </div>
-                                                </div>
-                                                <!-- card content -->
-                                            </div>
-                                        </div>
+                                          <div class="card">
+                                              <div class="card-header">
+                                                  <img src="/static/avatars/060m.jpg" alt="Gita Savitri"
+                                                      class="card-img-top">
+                                              </div>
+                                              <div class="card-header">
+                                                  <div class="card-body">
+                                                      <h5 class="card-title">Gita Savitri</h5>
+                                                      <p class="card-text">Lorem ipsum is simply free dumy text of
+                                                          the printing and amet con piscing.</p>
+                                                  </div>
+                                              </div>
+                                              <!-- card content -->
+                                          </div>
+                                      </div>
                                         <div class="" style="flex: 0 0 21.3%; max-width: 21.3%;">
-                                            <div class="card">
-                                                <div class="card-header">
-                                                    <img src="https://example.com/image.jpg" alt="Gita Savitri"
-                                                        class="card-img-top">
-                                                    <div class="card-body">
-                                                        <h5 class="card-title">Gita Savitri</h5>
-                                                        <p class="card-text">Lorem ipsum is simply free dumy text of
-                                                            the printing and amet con piscing.</p>
-                                                    </div>
-                                                </div>
-                                                <!-- card content -->
-                                            </div>
-                                        </div>
+                                          <div class="card">
+                                              <div class="card-header">
+                                                  <img src="/static/avatars/060m.jpg" alt="Gita Savitri"
+                                                      class="card-img-top">
+                                              </div>
+                                              <div class="card-header">
+                                                  <div class="card-body">
+                                                      <h5 class="card-title">Gita Savitri</h5>
+                                                      <p class="card-text">Lorem ipsum is simply free dumy text of
+                                                          the printing and amet con piscing.</p>
+                                                  </div>
+                                              </div>
+                                              <!-- card content -->
+                                          </div>
+                                      </div>
+                                        <div class="" style="flex: 0 0 21.3%; max-width: 21.3%;">
+                                          <div class="card">
+                                              <div class="card-header">
+                                                  <img src="/static/avatars/060m.jpg" alt="Gita Savitri"
+                                                      class="card-img-top">
+                                              </div>
+                                              <div class="card-header">
+                                                  <div class="card-body">
+                                                      <h5 class="card-title">Gita Savitri</h5>
+                                                      <p class="card-text">Lorem ipsum is simply free dumy text of
+                                                          the printing and amet con piscing.</p>
+                                                  </div>
+                                              </div>
+                                              <!-- card content -->
+                                          </div>
+                                      </div>
                                     </div>
                                 </div>
                                 <div class="carousel-item">
@@ -1844,7 +1860,7 @@
                                         <div class="" style="flex: 0 0 21%; max-width: 21%;">
                                             <div class="card">
                                                 <div class="card-header">
-                                                    <img src="https://example.com/image.jpg" alt="Gita Savitri"
+                                                    <img src="/static/avatars/064f.jpg" alt="Gita Savitri"
                                                         class="card-img-top">
                                                     <div class="card-body">
                                                         <h5 class="card-title">Gita Savitri</h5>
@@ -1858,7 +1874,7 @@
                                         <div class="" style="flex: 0 0 21%; max-width: 21%;">
                                             <div class="card">
                                                 <div class="card-header">
-                                                    <img src="https://example.com/image.jpg" alt="Gita Savitri"
+                                                    <img src="/static/avatars/064m.jpg" alt="Gita Savitri"
                                                         class="card-img-top">
                                                     <div class="card-body">
                                                         <h5 class="card-title">Gita Savitri</h5>
@@ -1872,7 +1888,7 @@
                                         <div class="" style="flex: 0 0 21%; max-width: 21%;">
                                             <div class="card">
                                                 <div class="card-header">
-                                                    <img src="https://example.com/image.jpg" alt="Gita Savitri"
+                                                    <img src="/static/avatars/065f.jpg" alt="Gita Savitri"
                                                         class="card-img-top">
                                                     <div class="card-body">
                                                         <h5 class="card-title">Gita Savitri</h5>
@@ -1886,7 +1902,7 @@
                                         <div class="" style="flex: 0 0 21%; max-width: 21%;">
                                             <div class="card">
                                                 <div class="card-header">
-                                                    <img src="https://example.com/image.jpg" alt="Gita Savitri"
+                                                    <img src="/static/avatars/065m.jpg" alt="Gita Savitri"
                                                         class="card-img-top">
                                                     <div class="card-body">
                                                         <h5 class="card-title">Gita Savitri</h5>
@@ -2878,8 +2894,7 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title">New report</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal"
-                        aria-label="Close"></button>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                     <div class="mb-3">
