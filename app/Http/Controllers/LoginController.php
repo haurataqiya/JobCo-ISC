@@ -11,6 +11,11 @@ class LoginController extends Controller
     {
         return view('signin');
     }
+
+    public function register()
+    {
+        return view('signup');
+    }
     public function autentikasi(Request $request)
     {
         // cek email
@@ -20,11 +25,18 @@ class LoginController extends Controller
         $password = $request->input('password');
 
         if (Auth::attempt(['email' => $email, 'password' => $password])) {
-            return true;
+            $user = Auth::user();
+            if ($user->role == 1) {
+                return view('dashboardUser');
+            } else if ($user->role == 2) {
+                return view('dashboardMentor');
+            } else if ($user->role == 3) {
+                return view('dashboardAdmin');
+            }
         }
 
-        return back()->withErrors([
-            'username' => 'tidak cocok'
-        ]);
+        return back()->with('error', 'Maaf! Username / Password salah cok');
     }
+
+    public function logout() {}
 }

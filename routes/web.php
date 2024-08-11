@@ -22,6 +22,7 @@ Route::get('/class', function () {
 
 
 
-// logincontroller  
+// logincontroller
+route::get('form-login', [LoginController::class, 'register'])->name('form-daftar');
 Route::get('form-masuk', [LoginController::class, 'index'])->name('form-masuk');
 route::post('masuk', [LoginController::class, 'autentikasi'])->name('form-autentikasi');
